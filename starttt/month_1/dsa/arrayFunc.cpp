@@ -2,7 +2,7 @@
 #include <climits>
 using namespace std;
 int arr[100];
-void PrintArray(int arr[], int size)
+void Array(int arr[], int size)
 {
 for(int i=0;i<size;i++)
 {
@@ -41,7 +41,7 @@ int main(){
 int size;
 cout<<"size of array?";
 cin>>size;
-PrintArray(arr,size);
+Array(arr,size);
 cout<<"minimum value="<<getMin(arr,size)<<endl;
 cout<<"maximum value="<<getMax(arr,size)<<endl;
 }
